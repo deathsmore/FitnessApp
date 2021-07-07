@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "FitnessApp"
+    }
+  },
+  "defaultProject": "FitnessApp",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
